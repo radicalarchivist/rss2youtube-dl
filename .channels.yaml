@@ -1,0 +1,7 @@
+example:
+    name: Feed Name (required)
+    download_dir: /path/to/save/directory (required if not using filter directories)
+    rss: https://rss.feed.url.com/.rss (required)
+    filter: 
+        - "Case Sensitive Filter (title filter)":
+            download_dir: /path/to/save/dir (optional)
