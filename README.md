@@ -1,25 +1,22 @@
-# rss2youtube-dl
+## rss2youtube-dl
+A utility that downloads and parses rss feeds for videos to download with youtube-dl  
+v.1.0  
+2020 by radicalarchivist  
 
 ## Usage
-    rss2youtube-dl
-    Desc: A utility that downloads and parses rss feeds for videos to download with youtube-dl
-    v.1.0
-    2020 by radicalarchivist
-
-    Usage:
-        rss2youtube-dl [-CDhid] [-c CONFIGFILE] [-r CHANNEL]
-        rss2youtube-dl --help
-        rss2youtube-dl --version
+    rss2youtube-dl [-CDhid] [-c CONFIGFILE] [-r CHANNEL]
+    rss2youtube-dl --help
+    rss2youtube-dl --version
 
     Options:
-        -c --config CONFIGFILE                Use custom configuration file             
-        -C --cron                             Script being run by cron, don't be interactive.
-        -d --demo                             Don't save or add to seen
-        -D --debug                            Print debug info to screen.
-        -i --interactive                      Interactive mode
-        -r --rss-from-channel CHANNEL         Get rss url for youtube channel url provided
-        -h --help                             Show this screen
-        --version                             Show version info
+      -c --config CONFIGFILE                Use custom configuration file             
+      -C --cron                             Script being run by cron, don't be interactive.
+      -d --demo                             Don't save or add to seen
+      -D --debug                            Print debug info to screen.
+      -i --interactive                      Interactive mode
+      -r --rss-from-channel CHANNEL         Get rss url for youtube channel url provided
+      -h --help                             Show this screen
+      --version                             Show version info
 
 ## .channels.yaml
     example:
