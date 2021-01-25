@@ -18,6 +18,12 @@ v.1.0
       -h --help                             Show this screen
       --version                             Show version info
 
+### Examples
+
+    # Get rss feed address for a youtube channel
+    $ rss2youtube-dl -r https://www.youtube.com/user/GoogleDevelopers
+    https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw
+
 ## .channels.yaml
     example:
         name: Feed Name (required)
