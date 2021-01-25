@@ -29,3 +29,6 @@
         filter: 
             - "Case Sensitive Filter (title filter)":
                 download_dir: /path/to/save/dir (optional)
+
+## Support RadicalArchivist
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N53F7TD)
